@@ -16,6 +16,8 @@ overviewSnapshots: true
 
 Connecting recipes, code and documentation
 
+Note: I will add more links and refs soon.
+
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
     Shane Crowley | Technical Author @ Canonical
