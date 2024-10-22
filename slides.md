@@ -16,12 +16,10 @@ overviewSnapshots: true
 
 Connecting recipes, code and documentation
 
-Note: I will add more links and refs soon.
+(update Oct-24: links added)
 
 <div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
     Shane Crowley | Technical Author @ Canonical
-  </span>
 </div>
 
 <!--
@@ -74,17 +72,17 @@ h1 {
 <!--
 The talk will frequently move between food and software.
 
-To start, I want to mention some key points that will come up.
+To start, I want to mention some key points.
 -->
 
 ---
 layout: center
-title: cooking books
+title: Cooking books
 ---
 
 ## Cookbooks
 
-![alt text](./public/cookBooks.jpg){width=500px lazy}
+![alt text](/cookBooks.jpg){width=500px lazy}
 
 Many kinds: traditional, scientific, industrial, artistic, ...
 
@@ -102,7 +100,7 @@ Another refers to the design of industrial food operations.
 layout: two-cols
 layoutClass: gap-16
 transition: fade
-title: recipe types
+title: Recipe types
 ---
 
 ## Traditional recipe...
@@ -201,7 +199,7 @@ On the right:
 ---
 layout: two-cols
 layoutClass: gap-16
-title: tutorial
+title: Tutorial
 ---
 
 ![alt text](/learnTomatoSauce.png){width=300px lazy}
@@ -242,7 +240,7 @@ on the diataxis website.
 -->
 
 ---
-title: diataxis
+title: Diataxis
 ---
 
 <div class="grid grid-cols-2 gap-2 p-1 h-full">
@@ -344,7 +342,7 @@ Consider: someone who can make a tomato sauce now consults the reference — the
 ---
 layout: center
 transition: fade
-title: explanation and precision
+title: Explanation and precision
 ---
 
 # Levels of explanation and precision
@@ -392,7 +390,7 @@ the inclusion of deeper explanations.
 
 ---
 layout: quote
-title: little schemer quote
+title: Little schemer quote
 ---
 
 <AutoFitText :max="20" :min="10" modelValue="Food appears in many of our examples for two reasons."/>
@@ -404,7 +402,7 @@ title: little schemer quote
 
 <br>
 
-— from _The Little Schemer_
+— from [The Little Schemer](https://mitpress.mit.edu/9780262560993/the-little-schemer/)
 
 <!--
 Now to the relationship between cooking and software.
@@ -418,7 +416,7 @@ Here is an example from a famous book on the Scheme language.
 layout: two-cols
 layoutClass: gap-16
 transition: fade
-title: unix recipes
+title: Unix recipes
 ---
 
 ![cover of unix book](/recipes/unixCover.jpg){width=350px}
@@ -442,7 +440,7 @@ The crust can be created separately from the fillings.
 
 ---
 layout: quote
-title: knuth quote
+title: Knuth quote
 ---
 
 <AutoFitText :max="20" :min="10" modelValue="Let us try to compare the concept of an algorithm"/>
@@ -450,7 +448,7 @@ title: knuth quote
 
 <br>
 
-— Donald Knuth from _The Art of Computer Programming_
+— Donald Knuth from [The Art of Computer Programming](https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming)
 
 <!--
 Other examples are deeper than this one.
@@ -530,7 +528,7 @@ print(mainWithSauce)
 > understanding and experiencing one kind of thing 
 > in terms of another.
 >
-> ― George Lakoff, Metaphors We Live By
+> ― George Lakoff, [Metaphors We Live By](https://press.uchicago.edu/ucp/books/book/chicago/M/bo3637992.html)
 
 <!--
 For example, we can write some functions in python that
@@ -555,7 +553,7 @@ be OK in a recipe.
 ---
 layout: statement
 transition: fade
-title: love is war
+title: Love is war
 ---
 
 Love is **war**, every day is a **battle**
@@ -563,7 +561,7 @@ Love is **war**, every day is a **battle**
 ---
 layout: statement
 transition: fade
-title: cooking is science
+title: Cooking is science
 ---
 
 Cooking is **science**, one must always be **quantitative**
@@ -571,7 +569,7 @@ Cooking is **science**, one must always be **quantitative**
 ---
 layout: statement
 transition: fade
-title: guides are recipes
+title: Guides are recipes
 ---
 
 How-to guides are **recipes**, the output should be... **enjoyed**?
@@ -579,7 +577,7 @@ How-to guides are **recipes**, the output should be... **enjoyed**?
 ---
 layout: quote
 transition: fade
-title: obstacles
+title: Obstacles
 ---
 
 **Epistemological obstacle**: the French philosopher Gaston Bachelard (1884-1962) suggested that in many periods of history, 
@@ -604,12 +602,12 @@ Metaphors have a tendency to be **bidirectional** ($recipes \Longleftrightarrow 
 ---
 layout: two-cols
 gap: 16
-title: tools for thought
+title: Tools for thought
 ---
 
 ## Tools for thought
 
-![alt text](/public/newsletterScreenie.png){width=350px}
+![alt text](/newsletterScreenie.png){width=350px}
 
 ::right::
 
@@ -633,13 +631,13 @@ _What would a notation for software docs look like?_
 ---
 layout: iframe
 url: https://diyhpl.us/~bryan/papers2/CompCook.html
-title: computerised cooking
+title: Computerised cooking
 ---
 
 ---
 layout: iframe
 url: https://biowaffeln.github.io/cooklang-parser/
-title: cooklang parser
+title: Cooklang parser
 ---
 
 ---
@@ -761,8 +759,10 @@ In recipes, ambiguity is an invitation for the cook to use their own judgement
 </div>
 
 ---
+title: Close and Links
+---
 
-# Closing Thoughts
+# Close
 
 - Probe the recipe analogy to generate ideas
 - Consider what you omit in the analogy
@@ -774,4 +774,10 @@ In recipes, ambiguity is an invitation for the cook to use their own judgement
 <hr>
 <br>
 
-Thanks to the Fons family for their old recipes!
+# Links
+
+- [Computerized Cooking](https://diyhpl.us/~bryan/papers2/CompCook.html) by David Mundie
+- [Cooklang](https://cooklang.org/) markup language for recipes
+- [Recipe grid](https://github.com/mossblaser/recipe_grid) tool
+- [Dispersed System Formalism](https://hal.inrae.fr/hal-03764024/document) paper
+- Old recipes are from the Fons family or the public domain
